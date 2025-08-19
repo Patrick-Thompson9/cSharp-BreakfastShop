@@ -13,6 +13,7 @@ public class BreakfastsController : ControllerBase
     {
         _breakfastService = breakfastService;
     }
+
     [HttpPost()]
     public IActionResult CreateBreakfast(CreateBreakfastRequest request)
     {
@@ -66,12 +67,25 @@ public class BreakfastsController : ControllerBase
     [HttpPut("{id:guid}")]
     public IActionResult UpsertBreakfast(Guid id, UpsertBreakfastRequest request)
     {
-        return Ok(request);
+        var breakfast = new Breakfast(
+            id,
+            request.Name,
+            request.Description,
+            request.StartDateTime,
+            request.EndDateTime,
+            DateTime.UtcNow,
+            request.Ingredients
+        );
+
+        _breakfastService.UpsertBreakfast(breakfast);
+
+        // TODO: return 201 if valid info can create new breakfast
+        return NoContent();
     }
 
     [HttpDelete("{id:guid}")]
     public IActionResult DeleteBreakfast(Guid id)
     {
-        return Ok(id);
+        return NoContent();
     }
 }
