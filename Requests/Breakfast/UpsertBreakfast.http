@@ -1,10 +1,10 @@
-@id=00000000-0000-0000-0000-000000000000
+@id=4d650efd-a826-4e93-835e-82636fef1de4
 
 PUT http://localhost:5235/breakfasts/{{id}}
 Content-Type: application/json
 
 {
-  "Name": "Pancakes",
+  "Name": "WAFFLES",
   "Description": "Fluffy pancakes with maple syrup",
   "StartDateTime": "2023-10-01T08:00:00",
   "EndDateTime": "2023-10-01T10:00:00",
