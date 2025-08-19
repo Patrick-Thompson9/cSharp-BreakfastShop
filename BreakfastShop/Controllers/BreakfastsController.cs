@@ -4,10 +4,9 @@ using BreakfastShop.Contracts.Breakfast;
 namespace BreakfastShop.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
 public class BreakfastsController : ControllerBase
 {
-    [HttpPost]
+    [HttpPost("/breakfasts")]
     public IActionResult CreateBreakfast(CreateBreakfastRequest request)
     {
         return Ok(request);

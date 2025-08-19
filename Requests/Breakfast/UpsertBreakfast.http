@@ -1,4 +1,6 @@
-POST http://localhost:5235/breakfasts
+@id=00000000-0000-0000-0000-000000000000
+
+PUT http://localhost:5235/breakfasts/{{id}}
 Content-Type: application/json
 
 {
