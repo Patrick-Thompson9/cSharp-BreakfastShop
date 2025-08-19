@@ -5,8 +5,8 @@ public class Breakfast
     public Guid Id { get; }
     public string Name { get; }
     public string Description { get; }
-    public DateTime CreatedAt { get; }
-    public DateTime UpdatedAt { get; }
+    public DateTime StartDateTime { get; }
+    public DateTime EndDateTime { get; }
     public DateTime LastUpdated { get; }
     public string[] Ingredients { get; }
 
@@ -14,16 +14,16 @@ public class Breakfast
         Guid id,
         string name,
         string description,
-        DateTime createdAt,
-        DateTime updatedAt,
+        DateTime startDateTime,
+        DateTime endDateTime,
         DateTime lastUpdated,
         string[] ingredients)
     {
         Id = id;
         Name = name;
         Description = description;
-        CreatedAt = createdAt;
-        UpdatedAt = updatedAt;
+        StartDateTime = startDateTime;
+        EndDateTime = endDateTime;
         LastUpdated = lastUpdated;
         Ingredients = ingredients;
     }
