@@ -1,0 +1,10 @@
+POST http://localhost:5235/api/breakfasts
+Content-Type: application/json
+
+{
+  "Name": "Pancakes",
+  "Description": "Fluffy pancakes with maple syrup",
+  "StartDateTime": "2023-10-01T08:00:00",
+  "EndDateTime": "2023-10-01T10:00:00",
+  "Ingredients": ["flour", "milk", "eggs", "sugar", "baking powder"]
+}

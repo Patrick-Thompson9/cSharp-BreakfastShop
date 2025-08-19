@@ -1,0 +1,12 @@
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\bin\Debug\net9.0\BreakfastShop.Contracts.deps.json
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\bin\Debug\net9.0\BreakfastShop.Contracts.dll
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\bin\Debug\net9.0\BreakfastShop.Contracts.pdb
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\BreakfastShop.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\BreakfastShop.Contracts.AssemblyInfoInputs.cache
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\BreakfastShop.Contracts.AssemblyInfo.cs
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\BreakfastShop.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\BreakfastShop.Contracts.sourcelink.json
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\BreakfastShop.Contracts.dll
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\refint\BreakfastShop.Contracts.dll
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\BreakfastShop.Contracts.pdb
+C:\Users\User\Documents\cSharp\BreakfastShop\BreakfastShop.Contracts\obj\Debug\net9.0\ref\BreakfastShop.Contracts.dll

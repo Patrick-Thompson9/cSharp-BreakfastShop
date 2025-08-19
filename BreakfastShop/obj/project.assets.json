@@ -33,6 +33,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BreakfastShop.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BreakfastShop.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BreakfastShop.Contracts.dll": {}
+        }
       }
     }
   },
@@ -67,10 +77,16 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "BreakfastShop.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BreakfastShop.Contracts/BreakfastShop.Contracts.csproj",
+      "msbuildProject": "../BreakfastShop.Contracts/BreakfastShop.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "BreakfastShop.Contracts >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.8"
     ]
   },
@@ -98,7 +114,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\cSharp\\BreakfastShop\\BreakfastShop.Contracts\\BreakfastShop.Contracts.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\cSharp\\BreakfastShop\\BreakfastShop.Contracts\\BreakfastShop.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
